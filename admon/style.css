@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background: #dee;
+    color: #777;
+    /*border: 5px solid green; ...Para ver el área del BODY.*/
+    height: 100vh; /*Hace que el BODY ocupe el 100% del ESPACIO VERTICAL de la ventana del navegador (ViewPort)*/
+}
+.login-container{
+    height: 100%; /*Ocupará el 100% del height de su PARENT, en este caso el BODY.*/
+    width: 100%;
+}
+.login-form{
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+.barra-progress{
+    background-color: yellowgreen;
+    max-width: 100%;
+    width: 370px;
+    height: 90px;
+    padding: 4px; /*Separa de los bordes 4px a todos controles contenidos en barra-progress. Hace que el ProgressBar se vea enmarcado por su contenedor padre.*/
+    display: flex;
+    flex-flow: column;
+}
+.barra-progress-h1{
+    flex:1;
+    margin: auto;
+}
+.barra-progress-div{
+    flex:1;
+    margin: auto;
+}
+/*Clase creada con CSS puro para experimentar con FLEXBOX de CSS, en lugar de d-flex de bootstrap.*/
+.elementos-centrados{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-flow: row;*/
+    align-items: center;  /*Sustituía "align-items-center" que NO FUNCIONABA sin "Height:100vh" del BODY*/
+}
+.form-control{
+    font-size: 18px;
+    min-height: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+.ddwn-txt-encabezado{
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(46, 143, 223, 0.822);
+}
+.ddwn-txt-menu{
+    font-size: 18px;
+    width:100%;
+}
+.Parisienne{
+    font-family: 'Parisienne', serif;
+}
+.campoVacio{
+    border-color: red;
+    color:red;
+}
+.invisible{
+    display: none;
+}
+.form-ssscontrol:focus{
+    border-color: rgb(37, 121, 190);
+    box-shadow: 0 0 0 0.2rem rgba(37, 121, 190, 0.25);
+}
+.forgot-link{
+    font-size: 14px;
+}
+.forgot-link label{
+    margin-bottom: 0;
+}
+.login-form a{
+    text-decoration: none;
+    color: #777;
+}
+.login-form a:hover{
+    color:rgb(37, 121, 190);
+}
+
+.btn-propio{
+    background: rgb(37, 121, 190);
+    border-color: rgb(37, 121, 190);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.btn-propio:focus,
+.btn-propio:hover,
+.btn-propio:active,
+.btn-propio:active:focus{
+    background: rgb(27, 99, 158);
+    border-color: rgb(27, 99, 158);
+    color: #fff;
+}
+.btn-propio:focus{
+    box-shadow: 0 0 0 0.2rem rgba(37, 121, 190, 0.25);
+}
+

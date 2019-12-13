@@ -1,0 +1,14 @@
+WEB - Login
+WEB - Dashboard
+WEB - Estados de Cuenta
+WEB - Galería de Imágenes
+WEB - Reportes Financieros
+WEB - Avisos
+WEB - Reglamento
+WEB - Minutas/Asambleas
+WEB - Reservación de Espacios
+WEB - Marketplace/Bazar
+
+PB - Cargos periódicos automáticos
+PB - Generación de Edos.Cta. en JSON
+PB - Publicación WEB de: Imágenes, Reportes Financieros, Avisos, etc.

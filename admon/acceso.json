@@ -1,0 +1,5 @@
+[
+    {"id":"101", "pwd":"0123", "nombre":"Propietario Departamento 101"},
+    {"id":"102", "pwd":"3210", "nombre":"Propietario Departamento 102"},
+    {"id":"admin", "pwd":"admin", "nombre":"Administrador del Sistema"}
+]
