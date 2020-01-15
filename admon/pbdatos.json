@@ -1,1 +1,0 @@
-  [  {        "id" : 1,        "nombre" : "PB Refrigerador",        "email" : "refri@datos.bd",        "estado" : true    },    {        "id" : 2,        "nombre" : "PB Ropero",        "email" : "ropero@datos.bd",        "estado" : true    },    {        "id" : 3,        "nombre" : "PB Maquinaria",        "email" : "maq@datos.bd",        "estado" : false    }]

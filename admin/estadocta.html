@@ -1,0 +1,75 @@
+<!--Este archivo se estaba pensando para armar un COMPONENTE que armara el estado de cuenta para Mantto. y Particulares-->
+<!--Aún está pendiente estudiar la teoría para implementar el uso de componentes, ya que por el momento los estados de cuenta se arman duplicando el código.-->
+
+<div class="card bg-light border-primary text-dark" id="repcta">
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div class="card-header border-primary pt-2 pb-1">
+        <h4 id="com_nombre" class="text-center">Nombre Condo</h4>
+        <h6 id="com_titulo" class="text-center">Título del Estado de Cuenta</h6>
+    </div>
+
+    <div class="card-body pt-2 pb-2">
+  
+      <div class="card-group">
+    
+        <div class="card border-primary">
+          <div class="card-body pb-0 pt-2 table-primary">
+            <h6 class="card-title" id="nomdepto"></h6>
+            <h6 class="card-title" id="clasmov"></h6>                      
+          </div>
+        </div>
+      
+        <div class="card border-primary">
+          <div class="card-body pb-0 pt-2 table-primary">
+            <table class="table table-sm table-borderless mb-1">
+              <thead>
+                <tr class="text-dark"  style="font-size:1rem">
+                  <th class="text-right" scope="col">Saldo Inical</th>
+                  <th class="text-right" scope="col">Cargos</th>
+                  <th class="text-right" scope="col">Abonos</th>
+                  <th class="text-right pr-3" scope="col">Saldo Final</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="text-dark" style="font-size:1.1rem">
+                  <!--<th scope="row">1</th>-->
+                  <td id="sdoinicial" class="text-right"></td>
+                  <td id="cargos" class="text-right"></td>
+                  <td id="abonos" class="text-right"></td>
+                  <td id="sdofinal" class="text-right pr-3"></td>
+                </tr>
+              </tbody>
+            </table>                        
+          </div>
+        </div>                  
+      </div>
+
+
+      <div class="table-responsive pt-2">
+        <table class="table table-striped bg-light table-sm mb-0">
+          <thead>
+            <tr class="bg-primary text-white" style="font-size: 1rem;">
+              <th id="h_fecha">Fecha</th>
+              <th id="h_cuenta">Cuenta</th>
+              <th id="h_concepto">Concepto</th>
+              <th id="h_ref">Referencia</th>
+              <th id="h_recibo">Recibo</th>
+              <th class="text-right">Cargos</th>
+              <th class="text-right">Abonos</th>
+              <th class="text-right">Saldo</th>
+            </tr>
+          </thead>
+          <tbody id="detail" class="text-dark">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card-footer text-center border-primary pt-0 pb-0" style="font-size: 1rem">
+        <i>--- Fin del Reporte ---</i>
+    </div>
+
+  </div>
+
+  <script src="../admon/dshbrd.js"></script>

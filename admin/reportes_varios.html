@@ -1,0 +1,99 @@
+
+
+          <!--<p>REPORTES</p>-->
+          <div class="row invisible" id="r_edocta">
+            <div class="card bg-light border-secondary" id="e docta"  style="background -color: rgb(170,250,200)">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-header border-secondary pt-2 pb-1" style="background -color: rgb(150,200,200)">
+                  <h4 id="com_nombre" class="text-center">Nombre Condo</h4>
+                  <h6 id="com_titulo" class="text-center">Título del Estado de Cuenta</h6>
+              </div>
+
+              <div class="card-body pt-2 pb-2">
+            
+                <div class="card-group">
+              
+                  <div class="card border-secondary">
+                    <div class="card-body pb-0 pt-2">
+                      <h6 class="card-title" id="nomdepto"></h6>
+                      <h6 class="card-title" id="clasmov"></h6>                      
+                    </div>
+                  </div>
+                
+                  <div class="card border-secondary">
+                    <div class="card-body pb-0 pt-2">
+                      <table class="table table-sm table-borderless mb-1">
+                        <thead>
+                          <tr   style="font-size:1rem">
+                            <th class="text-right" scope="col">Saldo Inical</th>
+                            <th class="text-right" scope="col">Cargos</th>
+                            <th class="text-right" scope="col">Abonos</th>
+                            <th class="text-right pr-3" scope="col">Saldo Final</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr  style="font-size:1.1rem">
+                            <!--<th scope="row">1</th>-->
+                            <td id="sdoinicial" class="text-right"></td>
+                            <td id="cargos" class="text-right"></td>
+                            <td id="abonos" class="text-right"></td>
+                            <td id="sdofinal" class="text-right pr-3"></td>
+                          </tr>
+                        </tbody>
+                      </table>                        
+                    </div>
+                  </div>                  
+                </div>
+        
+          
+                <div class="table-responsive pt-2">
+                  <table class="table table-striped table-sm mb-0">
+                    <thead>
+                      <tr class="bg-secondary text-white" style="font-size: 1rem; background -color: rgb(0,120,100)">
+                        <th>Fecha</th>
+                        <th>Cuenta</th>
+                        <th>Concepto</th>
+                        <th>Referencia</th>
+                        <th>Recibo</th>
+                        <th class="text-right">Cargos</th>
+                        <th class="text-right">Abonos</th>
+                        <th class="text-right">Saldo</th>
+                      </tr>
+                    </thead>
+                    <tbody id="detail">
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="card-footer text-center border-secondary pt-0 pb-0" style="font-size: 1rem">
+                  <i>--- Fin del Reporte ---</i>
+              </div>
+        
+            </div>
+          </div> <!--ROW del FIN BLOQUE Estado de Cta.-->
+
+
+          <div id="r_balance" class=" row invisible"> <!--BLOQUE Balance Gral.-->
+            <iframe src="../admon/balancegral.html" frameborder="0" scrolling="no" width="100%" height=630px></iframe>
+          </div> <!--FIN BLOQUE Balance Gral.-->
+
+          <div id="r_edores" class="row invisible"> <!--BLOQUE Estado de Resultados.-->
+            <iframe src="../admon/estadoresultados.html" frameborder="0" scrolling="no" width="100%" height=630px></iframe>
+          </div> <!--FIN BLOQUE Estado de Resultados.-->
+
+          <div id="r_balanza" class="row invisible"> <!--BLOQUE Balanza.-->
+            <iframe src="../admon/balanza.html" frameborder="0" scrolling="no" width="100%" height=630px></iframe>
+          </div> <!--FIN BLOQUE Balanza.-->
+
+
+          <div id="r_reglamento" class="row invisible" style="background: bl...ue...violet;"> <!--BLOQUE Reglamento.-->
+            <iframe src="../admon/reglamento.html" style="background: chart...reuse;" frameborder="0" scrolling="no" width="100%" height=630px></iframe>
+          </div> <!--FIN BLOQUE Reglamento.-->
+
+          <div id="r_reglamento_eventos" class="row invisible"> <!--BLOQUE Reglamento Eventos.-->
+            <iframe src="../admon/reglamento_eventos.html" frameborder="0" scrolling="no" width="100%" height=630px></iframe>
+          </div> <!--FIN BLOQUE Reglamento Eventos.-->
+
+          <!--<p>FIN REPORTES</p>-->
